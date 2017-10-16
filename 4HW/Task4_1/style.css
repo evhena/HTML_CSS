@@ -1,0 +1,20 @@
+body { 
+    margin: 0;
+}
+
+.box1 {
+	width: 100%;
+	height: 300px;
+	background-image: url("../img/font1.bmp");
+	background-size: contain 105%;
+	padding-top: 60px;
+}
+
+.box2 {
+	width: 315px;
+	height: 218px;
+	background-image: url("../img/font2.bmp");
+	box-sizing: border-box;
+	background-size: contain 95%;
+	margin: 0px 100px 100px 152px;
+}
