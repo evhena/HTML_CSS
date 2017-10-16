@@ -1,0 +1,37 @@
+.headLine {
+	color: #FFFFE0;
+	background-color: #D2691E;
+	width: 400px;
+	height: 30px;
+	font-size: 14px;
+	font-weight:bold;
+	line-height: 2;
+	text-indent: 1em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.textCSS {
+	background-color: #000;
+	color: #fff;
+	padding: 20px 20px 20px 10px;
+	width: 400px;
+	box-sizing: border-box;
+	background-position: 0% 100%;
+	background-size: 400px 400px;
+	text-align: left;
+	line-height: 1.5;
+	font-size: 17px;
+	margin: 0;
+}
+
+.selector {
+	color: #FFDEAD;
+}
+
+.attr {
+	color: #808080;
+}
+
+.val {
+	color: #A0522D;
+}
