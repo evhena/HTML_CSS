@@ -1,0 +1,41 @@
+ul {
+	margin: 0;
+	padding: 0;
+}	
+
+.icons li {
+	background: url(../img/sprite.png) no-repeat;
+	display: inline-block;
+	width: 72px;
+	height: 72px;
+}
+
+.icons .Google {
+	background-position: -72px 0px;
+}
+
+.icons .Youtube {
+	background-position: -144px 0px;
+}
+
+.icons .Twitter {
+	background-position: -216px 0px;
+}
+
+.icons .Facebook2 {
+	background-position: 0px -72px;
+}
+
+.icons .Google2 {
+	background-position: -72px -72px;
+}
+
+.icons .Youtube2 {
+	background-position: -144px -72px;
+}
+
+.icons .Twitter2 {
+	background-position: -216px -72px;
+}
+
+
