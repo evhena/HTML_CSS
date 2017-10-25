@@ -1,0 +1,77 @@
+body {
+ 	background-image: url(../img/font1.bmp);
+ 	z-index: 1;
+ }
+
+span {
+	background: transparent;
+	z-index: 2;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-size: 281%; 
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 11px;
+}
+
+.smart {
+	position: absolute;
+	top: 127px;
+	left: 119px;
+}
+
+.pi {
+	position: absolute;
+	top: 127px;
+	left: 363px;
+}
+
+.el {
+	position: absolute;
+	top: 127px;
+	left: 509px;
+}
+
+.square {
+	background: #000;
+	width: 20px;
+	height: 20px;
+	z-index: 2;
+}
+
+.square1 {
+	position: absolute;
+	top: 110px;
+	left: 434px;
+}
+
+.square2 {
+	position: absolute;
+	top: 110px;
+	left: 474px;
+}
+
+.square3 {
+	position: absolute;
+	top: 130px;
+	left: 454px;
+}
+
+.square4 {
+	position: absolute;
+	top: 150px;
+	left: 434px;
+}
+
+.square5 {
+	position: absolute;
+	top: 150px;
+	left: 474px;
+}
+
+
+
+
+
+
+
+
