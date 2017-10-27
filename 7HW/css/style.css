@@ -1,0 +1,152 @@
+.wrapper {
+	border-radius: 20px;
+	box-sizing: border-box;
+	width: 940px;
+	height: 450px;
+	background-image: url(../img/font.png);
+	margin: 0px auto;
+}
+
+.leftSide {
+	position: relative;
+	padding: 91px 63px;
+	float: left;
+}
+
+.content1 {
+	width: 270px;
+	background: white;
+	border-radius: 7px;
+	margin: 0;
+}
+
+.wreath {
+	position: absolute;
+	top: 71px;
+	right: 54px;
+}
+
+.row1 {
+	font-size: 16px;
+	font-family: "GothamPM";
+	color: #575b66;
+	text-transform: uppercase;
+	padding: 27px;
+	text-align: center;
+	font-weight: 800;
+}
+
+.row2 {
+	font-size: 52px;
+	font-family: "GothamP";
+	color: #9aaf4e;
+	padding-top: 6px;
+	text-align: center;
+}
+
+.row3 {
+	font-size: 14px;
+	font-family: "GothamP";
+	color: #8a8e99;
+	padding-top: 6px;
+	text-align: center;
+}
+
+.row4 {
+	font-size: 16px;
+	font-family: "GothamPM";
+	color: #876c27;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 10px;
+	width: 270px;
+	height: 50px;
+	background: #fac746;
+	margin: 50px 0px 10px;
+	padding-bottom: 0px;
+}
+
+.rightSide {
+	position: relative;
+	width: 540px;
+	float: right;
+}
+
+.content2 {
+	margin: 53px 63px;
+}
+
+.dscr {
+	font-size: 16px;
+	font-family: "GothamPL";
+	color: rgb(87, 91, 102);
+	line-height: 1.5;
+	text-align: left;
+	width: 435px;
+}
+
+span {
+	font-family: "GothamPM";
+	word-spacing: -0.4px;
+}
+
+.payments {
+	font-size: 13px;
+	font-family: "GothamPM";
+	color: #c2c4cc;
+	text-align: left;
+	text-transform: uppercase;
+	padding-top: 28px;
+	float: left;
+	letter-spacing: 0.8px;
+}
+
+.payment img {
+	padding: 23px 9px 26px 9px;
+}
+
+.payment img:hover {
+	background-image: url(../img/spriteColor.png);
+}
+
+.buy a {
+	text-decoration: none;
+	border-radius: 27px;
+	width: 276px;
+	height: 54px;
+	background-color: #aac65a;
+	margin: -2px;
+	padding: 17px 50px 19px 48px;
+	font-size: 16px;
+	font-family: "GothamPM";
+	color: #fff;
+	line-height: 4.6;
+}	
+
+.request {
+	font-size: 16px;
+	font-family: "GothamP";
+	color: rgb(87, 91, 102);
+	line-height: 1.5;
+	text-align: left;
+	padding: 23px 0px 13px 0px;
+	word-spacing: -0.5px;
+}	
+
+.buttonReqest a {
+	text-decoration: none;
+	border-radius: 27px;
+	background-color: #fac746;
+	margin: -2px;
+	padding: 14px 40px 16px 39px;
+	font-size: 14px;
+	font-family: "GothamPM";
+	color: rgb(135, 108, 39);
+	line-height: 1.7;
+}
+
+.close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
