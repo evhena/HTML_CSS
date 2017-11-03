@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head lang="ru">
+		<meta charset="utf-8">	
+		<title>Задача 13</title>
+	</head>
+	<body>
+		<h1>Запись на курсы</h1>
+		<hr>
+		<form novalidate>
+			<p>
+				<label for="name">Имя:</label><br>
+			 	<input type="text" name="name" placeholder="Алексей" id="name">
+			</p>
+			<p>
+				Язык программирования:<br>
+				<label>
+						<input type="radio" name="radiobutton" value="C++">C++
+				</label><br>               
+			 	<label>
+			 			<input type="radio" name="radiobutton" value="PHP" checked>PHP
+			 	</label><br>
+				<label>
+						<input type="radio" name="radiobutton" value="Python">Python
+				</label>
+			</p>
+			<p>
+				<label>Дополнительная информация:<br>
+					<textarea name="info" rows="3" cols="30" placeholder="Есть опыт программирования на С++">
+					</textarea>
+				</label>
+			</p>
+			<p>
+				<label>
+						Секретное слово:<br>
+						<input type="password" name="pass" required maxlength="25" 
+						placeholder="&#x26ab;&#x26ab;&#x26ab;&#x26ab;&#x26ab;&#x26ab;&#x26ab;&#x26ab;&#x26ab;&#x26ab;">
+				</label>
+			</p>
+			<p>
+				<input type="submit" name="Send" value="Отправить" formaction="php/file.php" formmethod="post">
+				<input type="reset" name="clear" value="Очистить">
+			</p>	
+		</form>
+		<hr>
+	</body>
+</html><!--03/10/2017 Evgeniya Bogdanova -->

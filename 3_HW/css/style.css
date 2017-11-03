@@ -1,0 +1,49 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	/* padding: 15px; */ 
+	/* margin: 15px; */
+}
+#part1 {
+	/* Цвет текста красный */
+	color: #FF0000; 
+	/* Размер шрифта */
+	font-size: 1rem;
+	/* Устанавливает подчеркнутый текст */
+	text-decoration: underline;
+	/* Стиль шрифта - жирный */
+	font-weight: 590;
+}
+
+#part2 {
+	/* Цвет текста черный */
+	color: #000;
+	/* Размер шрифта */
+	font-size: 100%;
+	/* Стиль шрифта - жирный */
+	font-weight: bold;
+	/* Определяет интервал между символами */
+	letter-spacing: 2px;
+	/* Устанавливает интерлиньяж (межстрочный интервал) */
+	line-height: 20px;
+}
+
+#part3 {
+	/* Цвет текста черный */
+	color: #000;
+	/* Размер шрифта */
+	font-size: 1rem;
+	/* все символы текста становятся прописными (верхний регистр) */
+	text-transform: uppercase;
+	/* выравнивает текст по центру */
+	text-align: center;
+	line-height: inherit;
+}
+
+#part4 {
+	/* Цвет текста зеленый */
+	color: #008000;
+	/* Размер шрифта */
+	font-size: 75%;
+	/* выравнивает текст по ширине */
+	text-align: justify;
+}
