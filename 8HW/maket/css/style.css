@@ -42,9 +42,11 @@
 	padding: 97px 0px 42px;
 	word-spacing: -0.05em;
 }
+
 .wordSpas {
 	word-spacing: -0.01em;
 }
+
 .letterSpas {
 	letter-spacing: -0.02em;
 }
