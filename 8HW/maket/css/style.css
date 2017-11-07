@@ -1,0 +1,84 @@
+.wrapper {
+	width: 1900px;
+	background: url(../img/font1.jpg) no-repeat;
+	margin: 0 auto;
+	font-family: GothamP;
+	color: #fff;
+	font-size: 30px;
+}
+
+.page1 {
+	padding: 85px 380px 0px 380px;
+	line-height: 1.2;
+}
+
+.topSection {
+	width: 750px;
+	text-align: center;
+	float: bottom;
+	margin: 0 auto;
+}
+
+.header {
+	font-family: GothamPM;
+	font-size: 60px;
+	font-weight: 1.5;
+	margin: 0 auto;
+}
+
+.rightSection {
+	margin: 0 auto;
+	padding: 30px 60px 315px 585px;
+	text-align: left;
+	word-spacing: -0.05em;
+}
+
+.header2 {
+	margin: 0 auto;
+	color: #b6f1ff;
+	font-family: GothamP;
+	font-size: 42px;
+	font-weight: bold;
+	padding: 97px 0px 42px;
+	word-spacing: -0.05em;
+}
+.wordSpas {
+	word-spacing: -0.01em;
+}
+.letterSpas {
+	letter-spacing: -0.02em;
+}
+
+.text1{
+	font-size: 30px;
+	margin: 0 auto;
+	padding-top: 4px;
+}
+
+.text2 {
+	margin: 0 auto;
+	font-size: 30px;
+	padding: 15px 0px 3px;
+	word-spacing: -0.01em;
+}
+
+.text3 {
+	margin: 0 auto;
+	font-size: 30px;
+	padding: 9px 0px 60px;
+	word-spacing: -0.01em;
+}
+
+.orderButton a {
+	font-family: GothamPB;
+	text-align: center;
+	background-color: #ff153d;
+	padding: 22px 30px;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	word-spacing: -0.01em;
+}
