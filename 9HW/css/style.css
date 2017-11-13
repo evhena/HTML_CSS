@@ -1,0 +1,297 @@
+div {
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+} 
+
+
+/*section_one*/ 
+
+.section_one {
+	width: 100%;
+	background: url(../img/backgr_image1.jpg);
+	background-size: cover; 
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.menu ul {
+	float: right;
+	margin: 0;
+}
+
+.menu li {
+	list-style-type: none; 
+	float: left;
+	padding: 35px 18px 0px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #434343;
+}	
+
+.logo a {
+	padding-top: 15px;
+	float: left;
+}
+
+.section_one .button_purchase {
+	clear: both;
+	float: top;
+	padding: 670px 500px;
+}
+
+.button_purchase a {
+	display: inline-block;
+	background: #ffffff;
+	text-align: center;
+	padding: 20px 33px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #f96257;
+	width: 170px;
+}
+
+.fa {
+	font-size:;
+	color: #f96257;
+}
+
+/*section_two*/ 
+
+.section_two {
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.text_main {
+	font-size: 36px;
+	color: rgb(38, 38, 38);
+}
+
+.text_red {;
+	color: #f96257;
+}
+
+.history p {
+	width: 1030px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 28px;
+}
+
+.useful_area {
+	padding: 30px 0px 160px 160px;
+}
+
+.useful_area p {
+	float: left;
+	padding: 20px 33px;
+	box-sizing: border-box;
+	margin-right: 20px;
+	border-radius: 5px;
+	width: 270px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.use_one {
+	background-color: #d8da77;
+}
+
+.use_two {
+	background: #a7ad27;
+}
+
+.use_three {
+	background: #f96257
+}
+
+.backgrTwo {
+	text-align: center;
+}
+
+
+/*section_three*/ 
+
+.section_three .wrapper {
+	background: #f7f7f7;
+	
+}
+
+.vitamin {
+	width: 700px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 115px;
+}
+
+.section_three .button_purchase_red {
+ 	padding: 30px 500px 120px 500px;
+ }
+
+.button_purchase_red a {
+	display: inline-block;
+	text-align: center;
+	padding: 20px 33px;
+	border-radius: 5px;
+	text-decoration: none;
+	width: 170px;
+	color: #fff;
+	background: #f96257;
+}
+
+
+/*section_four*/ 
+
+.section_four .wrapper {
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+.backgrThree {
+	text-align: right;
+	padding-right: 170px;
+	width: 65%;
+	float: right;
+	padding-top: 115px;
+	z-index: 1;
+}
+
+.consist {
+	font-size: 22px;
+	text-align: right;
+	width: 35%;
+	float: left;
+	padding-top: 400px;
+	z-index: 2;
+}
+
+.consist_one {
+	position: relative;
+}
+
+.consist_one::after {
+	content: "";
+	width: 200px;
+	height: 6px;
+	background: #e7e7e7;
+	position: absolute;
+	top: 13px;
+	right: -204px;
+}
+
+.consist_two {
+	position: relative;
+	padding-right: 50px;
+	padding-top: 25px;
+}
+
+.consist_two::after {
+	content: "";
+	width: 200px;
+	height: 6px;
+	background: #e7e7e7;
+	position: absolute;
+	top: 40px;
+    right: -175px;
+}
+
+.consist_three {
+	position: relative;
+	padding-top: 25px;
+}
+
+.consist_three::after {
+	content: "";
+	width: 200px;
+	height: 6px;
+	background: #e7e7e7;
+	position: absolute;
+	top: 40px;
+    right: -204px;
+}
+
+.par_one {
+	clear: both;
+	width: 920px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 115px;
+}
+
+.par_one p {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.backgrFour {
+	text-align: right;
+	padding: 115px 170px 0 0;
+	width: 50%;
+	float: right;
+}
+
+.benefits {
+	text-align: left;
+	width: 50%;
+	float: left;
+	padding-top: 320px;
+}
+
+li {
+	list-style-type: none;
+	font-size: 14px;
+    color: rgb(38, 38, 38);
+    padding-top: 10px;
+}
+
+.benefits .fa {
+	font-size:;
+	color: #262626;
+}
+
+.backgrFour {
+	text-align: right;
+	padding-right: 170px;
+	margin-bottom: 100px;
+}
+
+
+/*section_five*/ 
+
+.par_two {
+	font-family: 'Poppins Light', sans-serif;
+	background: url(../img/backgr_image5.png) no-repeat;
+	text-align: center;
+	width: 100%;
+	padding: 120px 95px;
+	clear: both;
+	font-size: 28px;
+	color: rgb(255, 255, 255);
+	line-height: 1.643;
+}
+
+
+/*section_six*/ 
+
+.section_six {
+	text-align: center;
+	padding-right: 170px;
+}
+
+.section_six p {
+	font-family: 'Poppins Light', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.par_three {
+	padding-bottom: 30px;
+}
+
+
