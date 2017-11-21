@@ -8,7 +8,7 @@ div {
 
 .section_one {
 	width: 100%;
-	background: url(../img/backgr_image1.jpg);
+	background: url(../img/backgr_image1.jpg) no-repeat center;
 	background-size: cover; 
 }
 
@@ -59,6 +59,7 @@ div {
 	font-size:;
 	color: #f96257;
 }
+
 
 /*section_two*/ 
 
@@ -131,8 +132,9 @@ div {
 }
 
 .section_three .button_purchase_red {
- 	padding: 30px 500px 120px 500px;
- }
+	text-align: center;
+	padding: 30px 0 120px 0;
+}
 
 .button_purchase_red a {
 	display: inline-block;
@@ -243,7 +245,7 @@ div {
 	padding-top: 320px;
 }
 
-li {
+.section_four li {
 	list-style-type: none;
 	font-size: 14px;
     color: rgb(38, 38, 38);
@@ -281,7 +283,6 @@ li {
 
 .section_six {
 	text-align: center;
-	padding-right: 170px;
 }
 
 .section_six p {
@@ -294,4 +295,60 @@ li {
 	padding-bottom: 30px;
 }
 
+.section_six .button_purchase_red {
+	padding-bottom: 90px;
+}
 
+
+/*footer*/ 
+
+.footer {
+	background: #f7f7f7;
+	padding: 50px 0;
+}
+
+.footer li .fa, .fa-copyright {
+	color: #000;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #262626;
+}
+
+.pointonMap {
+	float: left;
+}
+
+.callNumber {
+	float: right;
+}
+
+.rightsReservd {
+	clear: both;
+}
+
+.leftFooter {
+	width: 43%;
+	box-sizing: border-box;
+	text-align: left;
+	float: left;
+}
+
+.rightFooter {
+	/*width: 50%;*/
+	box-sizing: border-box;
+	text-align: right;
+	float: right;
+}
+
+.footer li {
+	float: left;
+	list-style-type: none;
+	padding: 0 0 15px 15px;
+	margin: 0;
+}
+
+.footer .rightsReservd, .footer .email {
+	font: 12px 'Poppins', sans-serif;
+}

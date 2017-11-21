@@ -1,0 +1,79 @@
+div {
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+} 
+
+
+/*section_one*/ 
+
+.section_one {
+	width: 100%;
+	background: url(../img/backgr_image1.jpg) no-repeat center;
+	background-size: cover;
+	text-transform: uppercase;	 
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.title {
+	display: inline-block;
+	margin-top: 500px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	color: #fff;
+	text-align: center;
+}
+
+.button_learn {
+	clear: both;
+	float: top;
+	padding: 40px 500px 300px;
+}
+
+.button_learn a {
+	display: inline-block;
+	background: transparent;
+	text-align: center;
+	padding: 20px 40px;
+	border: 2px solid #fff;
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu {
+	border: 1px solid #000;
+	background: #252e30;
+}
+
+.menu ul {
+	float: right;
+	margin: 0;
+}
+
+.menu li {
+	list-style-type: none; 
+	float: left;
+	padding: 0px 18px 0px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #000;
+}	
+
+.logo img {
+	padding-top: 15px;
+	float: left;
+}
+
+
+/*section_two*/ 
+
+.section_two {
+	width: 100%;
+	background-color: #ffffff;
+}
+
