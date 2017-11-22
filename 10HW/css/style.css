@@ -3,6 +3,11 @@ div {
 	box-sizing: border-box;
 } 
 
+.clearfix::after {
+	display: block;
+	content: '';
+	clear: both;
+}
 
 /*section_one*/ 
 
@@ -19,18 +24,23 @@ div {
 }
 
 .title {
-	display: inline-block;
-	margin-top: 500px;
-	border-top: 3px solid #fff;
-	border-bottom: 3px solid #fff;
+	margin: 0 auto;
+	padding-top: 500px;
 	color: #fff;
 	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	padding: 5px 0;
 }
 
 .button_learn {
 	clear: both;
 	float: top;
-	padding: 40px 500px 300px;
+	padding: 30px 500px 300px;
 }
 
 .button_learn a {
@@ -44,13 +54,15 @@ div {
 }
 
 .menu {
-	border: 1px solid #000;
-	background: #252e30;
+	display: inline-block;
+	width: 100%;
+	background-color: #252e30;
 }
 
 .menu ul {
 	float: right;
 	margin: 0;
+	padding: 30px 0;
 }
 
 .menu li {
@@ -61,7 +73,7 @@ div {
 
 .menu a {
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 }	
 
 .logo img {

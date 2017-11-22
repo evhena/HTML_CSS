@@ -3,6 +3,11 @@ div {
 	box-sizing: border-box;
 } 
 
+.clearfix::after {
+	display: block;
+	content: '';
+	clear: both;
+}
 
 /*section_one*/ 
 
@@ -15,6 +20,11 @@ div {
 .wrapper {
 	width: 1170px;
 	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	padding-bottom: 500px;
 }
 
 .menu ul {
@@ -35,13 +45,17 @@ div {
 
 .logo a {
 	padding-top: 15px;
+}
+
+.logo {
 	float: left;
 }
 
-.section_one .button_purchase {
-	clear: both;
-	float: top;
-	padding: 670px 500px;
+.button_purchase {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 500px;
 }
 
 .button_purchase a {
@@ -112,8 +126,10 @@ div {
 	background: #f96257
 }
 
-.backgrTwo {
-	text-align: center;
+.backgrTwo img {
+	display: block;
+	width: 73%;
+	margin: 0 auto;
 }
 
 

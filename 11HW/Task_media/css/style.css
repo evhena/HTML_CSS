@@ -1,0 +1,127 @@
+html, body {
+	font-size: 10px;
+}
+
+.clearfix::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 15px;
+	color: blue;
+	font-size: 1rem;
+	word-wrap: break-word;
+}
+
+p {
+	display: inline-block;
+}
+
+img {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: origin;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
+	clear:;
+}
+
+/* 1) ширина от 1600 и выше:
+ширина врапера: 1170px, внутренний отступ 15 пикселей
+текст: цвет красный, размер 20 пикселей
+картинка: по 4 картинки на строке */
+
+@media (min-width: 1600px) {
+	.wrapper {
+		color: red;
+		font-size: 2.0rem;
+	}
+	img {
+	width: 25%;
+	}
+	.img5 {
+		clear: left;
+	}
+}
+
+/* 2) ширина от 1200 до 1600:
+ширина врапера: 1170px, внутренний отступ 15 пикселей
+текст: цвет зеленый, размер текста 16 пикселей
+картинка: по 3 картинки на строке */
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+	.wrapper {
+		color: green;
+		font-size: 1.6rem;
+	}
+	img {
+		width: 33%;
+	}
+	.img4 {
+		clear: left;
+	}
+}
+	
+
+/* 3) ширина от 992 до 1200:
+ширина врапера: 970px, внутренний отступ 15 пикселей
+текст: цвет пурпурный, размер текста 14 пикселей
+картинка: по 3 картинки на строке */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.wrapper {
+		width: 970px;
+		color: purple;
+		font-size: 1.4rem;
+	}
+	img {
+	width: 33%;
+	}
+	.img4 {
+		clear: left;
+	}
+}
+
+
+/* 4) ширина от 768 до 992 пикселей:
+ширина врапера: 750px, внутренний отступ 15 пикселей
+текст: цвет черный, размер текста 16 пикселей
+картинка: по 2 картинки на строке */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.wrapper {
+		width: 750px;
+		color: #000;
+		font-size: 1.6rem;
+	}
+	img {
+	width: 50%;
+	}
+	.img3 {
+		clear: left;
+	}
+}
+
+
+/* 5) ширина от 320 до 768 пикселей:
+ширина врапера: ширина viewport, внутренний отступ 15 пикселей
+текст: цвет желтый, размер текста 14 пикселей
+картинка: по 1 картинке на строке */
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.wrapper {
+		width: device-width;
+		color: yellow;
+		font-size: 1.4rem;
+	}
+	img {
+	width: 100%;
+	}
+} 
