@@ -1,0 +1,134 @@
+html, body {
+	font-size: 10px;	
+}
+
+.clearfix::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 15px;
+	color: blue;
+	font-size: 1rem;
+	word-wrap: break-word;
+	background-color: #F0FFFF;
+	box-sizing: border-box;
+}
+
+.grayBlocks div {
+	display: block;
+	width: 300px;
+	padding: 15px;
+	margin: 20px auto;
+	background-color: #c4c4c4;
+	border: 2px solid #fff;
+	color: #008080;
+	font-size: 1.8rem;
+	text-align: center;
+	transition: all 3s;
+	opacity: 1;
+}
+
+.colorChange:hover{
+	background: yellow;
+	color: #FA8072;
+}
+
+.widthChange:hover{
+	width: 250px;
+}
+
+.opacityChange:hover{
+	opacity: 0.5;
+}
+
+.twist:hover{
+	transform: rotate(360deg);
+}
+
+.increase:hover{
+	transform: scale(1.4, 1.4);
+}
+
+.offset:hover{
+	transform: translate(-15%, 50%);
+}
+
+
+/* 2. сделать анимацию для кубов */
+
+.cubeAnimation div {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.cubePink {
+	background: #FFB6C1;
+	
+}
+
+.cubeYellow {
+	background: #FFFF00;
+	transform: translate( 50%, -250%);
+}
+
+.cubeOne {
+	transform: translate(-50%, 50%);
+	transform-origin: right bottom;
+	animation: rotateRight 5s linear 0s 3;
+}
+
+.cubeTwo {
+	transform: translate(-50%, 150%);
+	transform-origin: left bottom;
+	animation: rotateRight 5s linear 0s 3;
+}
+
+.cubeThree {
+	transform: translate( 150%, -150%);
+	transform-origin: right top;
+	animation: rotateLeft 5s linear 0s 3;
+}
+
+.cubefour {
+	transform: translate( 150%, -50%);
+	transform-origin: left top;
+	animation: rotateLeft 5s linear 0s 3;
+}
+
+@keyframes rotateRight{
+	0% {
+		transform: rotate(90deg);
+	}
+	33% {
+		transform: rotate(180deg);
+	}
+	66% {
+		transform: rotate(270deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+
+}
+
+@keyframes rotateLeft{
+	0% {
+		transform: rotate(-90deg);
+	}
+	33% {
+		transform: rotate(-180deg);
+	}
+	66% {
+		transform: rotate(-270deg);
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+
+}
