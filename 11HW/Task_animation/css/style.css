@@ -18,6 +18,9 @@ html, body {
 	box-sizing: border-box;
 }
 
+/* 1. Создать 6 блоков и применить к ним различные 
+	эффекты трансформации и переходы */
+
 .grayBlocks div {
 	display: block;
 	width: 300px;
@@ -74,31 +77,41 @@ html, body {
 
 .cubeYellow {
 	background: #FFFF00;
-	transform: translate( 50%, -250%);
+	position: relative;
+	left: -415px;
+    top: -179px;
 }
 
 .cubeOne {
-	transform: translate(-50%, 50%);
+	position: absolute;
+	left: 300px;
+	top: 300px;
 	transform-origin: right bottom;
-	animation: rotateRight 5s linear 0s 3;
+	animation: rotateLeft 5s linear 0s 3;
 }
 
 .cubeTwo {
-	transform: translate(-50%, 150%);
+	position: absolute;
+	left: 300px;
+	top: 300px;
 	transform-origin: left bottom;
-	animation: rotateRight 5s linear 0s 3;
+	animation: rotateLeft 5s linear 0s 3;
 }
 
 .cubeThree {
-	transform: translate( 150%, -150%);
+	position: absolute;
+	left: 300px;
+	top: 300px;
 	transform-origin: right top;
-	animation: rotateLeft 5s linear 0s 3;
+	animation: rotateRight 5s linear 0s 3;
 }
 
 .cubefour {
-	transform: translate( 150%, -50%);
+	position: absolute;
+	left: 300px;
+	top: 300px;
 	transform-origin: left top;
-	animation: rotateLeft 5s linear 0s 3;
+	animation: rotateRight 5s linear 0s 3;
 }
 
 @keyframes rotateRight{
