@@ -7,7 +7,7 @@ html body {
 	clear: both;
 }
 
-div, nav, button {
+div, nav {
 	box-sizing: border-box;
 
 }
@@ -61,7 +61,7 @@ header {
 	text-align: right;
 }
 
-.right_block {
+.right_align {
 	text-align: right;
 }
 
@@ -76,18 +76,9 @@ header {
 	font-weight: 700;
 }
 
-.text_black {
-	color: #000;
-}
-
-.text_wight {
-	color: #fff;
-}
-
-
 /* section_one */
 
-.section_one {
+#section_one {
 	width: 100%;
 	background: #3f4049;
 }
@@ -99,7 +90,7 @@ header {
 .main {
 	padding: 175px 0;
 	display: block;
-	margin: 0 auto;
+	text-align: center;
 }
 
 h1 {
@@ -125,7 +116,7 @@ h1 {
 
 .but_ourWorks {
 	background: #fc5f45;
-	margin-top: 45px; 
+	margin-top: 45px;
 }
 
 .but_ourWorks a {
@@ -143,6 +134,9 @@ h1 {
 figcaption {
 	float: left;
 	text-align: center;
+}
+
+.advantages figcaption {
 	padding-left: 50px;
 	text-transform: uppercase;
 	font-size: 18px;
@@ -162,3 +156,65 @@ figcaption {
 
 
 /* section_two */
+
+#section_two .wrapper {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.left_block {
+	width: 50%;
+	float: left;
+}
+
+.right_block {
+	width: 58%;
+	float: right;
+	margin-top: 100px;
+	margin-left: -8%;
+	padding: 85px 90px 130px;
+	background: url(../img/Right-image.png) no-repeat left top;
+	font-size: 15px;
+	font-family: "Poppins";
+	color: rgb(97, 97, 97);
+	line-height: 1.8;
+	text-align: left;
+}
+
+/*.right_block {
+	position: relative;
+}
+
+ .right_block::after {
+	content: url(../img/color-line.png);
+	position: absolute;
+	right: 0px;
+} */
+
+h2 {
+	font-size: 50px;
+	font-family: "Libre Baskerville";
+	color: rgb(49, 49, 49);
+	font-weight: bold;
+	line-height: 1.6;
+	text-align: left;
+	padding-bottom: 12px;
+	margin: 0;
+}
+
+div.aboutUs2 {
+	padding-top: 35px;
+}
+
+
+/* section_three */
+
+#section_tree {
+	/* background: url(../img/backgr_02.png); */
+	padding-top: 150px;
+}
+
+.services figcaption {
+	width: 20%;
+	margin-left: 5%;
+}
