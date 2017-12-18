@@ -1,0 +1,195 @@
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+}
+
+@media (min-width: 767px) and (max-width: 992px){
+	html, body{
+		font-size: 9.5px;
+	}
+}
+
+@media (max-width: 767px){
+	html, body{
+		font-size: 9px;
+	}
+}
+
+.pull-none{
+	float: none;
+}
+
+.text-color-orange{
+	color: #f7600e;
+}
+
+/*______ main section ______*/
+
+.main{
+	background: url('../img/section_main/backgr-1.png') center no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding-top: 48px;
+	padding-bottom: 48px; 
+}
+
+.main__header-menu{
+	display: inline-block;
+}
+
+.main__textInfo-header{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 7rem;
+	margin-bottom: 30px; 
+}
+
+.main__textInfo-content{
+	font-size: 2.5rem;
+	margin-bottom: 65px; 
+}
+
+.main__textInfo-buttons{
+	text-transform: uppercase;
+	font-weight: 600px;
+	font-size: 1.6rem;
+	margin-bottom: 180px; 
+}
+
+.main__textInfo-button{
+	border: 1px solid rgba(255, 255, 255, 0.31);
+	border-radius: 10px;
+	min-width: 200px;
+	padding: 10px 0 10px;
+	display: inline-block;
+	color: #fff;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.main__textInfo-button:hover{
+	background-color: #f7600e;
+	color: #fff;
+	text-decoration: none;
+	border-color: #f7600e;
+}
+
+.main__textInfo-button-marginRigh{
+	margin-right: 30px; 
+}
+
+.main__textInfo-wrapper{
+	padding-top: 160px;
+}
+
+@media (max-width: 992px){
+	.main__textInfo-buttons{
+		margin-bottom: 70px; 
+	}
+	.main__textInfo-wrapper{
+		padding-top: 70px;
+	}
+}
+
+@media (max-width: 495px){
+	.main__textInfo-button{
+		margin-bottom: 15px; 
+	}
+	.main__textInfo-header{
+		font-size: 5rem;
+	}
+}
+
+/*______ second section ______*/
+
+.second {
+	padding-top: 100px;
+	padding-bottom: 110px; 
+	background: #fff;
+}
+
+.options {
+	text-align: center;
+	padding-right: 36px;
+	padding-left: 45px;
+	font-size: 1.4rem;
+	color: rgb(59, 67, 76);
+	line-height: 1.857;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 1.6rem;
+	color: rgb(59, 67, 76);
+	line-height: 2.5;
+}
+
+@media (max-width: 992px){
+	.second {
+		padding-top: 20px;
+		padding-bottom: 20px; 
+	}
+	.options {
+		padding-bottom: 30px;
+		font-size: 2rem;
+	}
+	h3 {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 2rem;
+	}
+}
+
+/*______ third section ______*/
+
+.third {
+	background: url('../img/section_third/backgr_3.jpg') center no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding-top: 100px ;
+	padding-bottom: 100px; 
+	text-align: center;
+}
+
+.orangeButton {
+	text-transform: uppercase;
+	font-weight: 600px;
+	font-size: 1.6rem;
+	border: 1px solid #f7600e;
+	background-color: #f7600e;
+	color: #fff;
+	border-radius: 10px;
+	min-width: 272px;
+	padding: 14px 0 14px;
+	margin-left: 30px;
+}
+	
+.third__form-inputEmail { 	
+	padding: 5px 0 5px 35px;
+	border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #3b4148;
+	font: 500 1.6rem 'Open Sans', sans-serif;
+	color: rgb(59, 67, 76);
+	line-height: 2.5;
+	min-width: 272px;
+	margin: 0 auto;
+	width: 570px;
+}	
+
+@media (max-width: 1200px){
+	.third__form-inputEmail {
+		width: 420px;
+	}
+@media (max-width: 768px){
+	.third {
+		padding-top: 50px ;
+		padding-bottom: 50px;
+	}
+	.orangeButton {
+		margin-left: 0;
+	}	
+	.third__form-inputEmail {
+		margin-bottom: 20px;
+		width: 0.5rem;
+	}
+}
