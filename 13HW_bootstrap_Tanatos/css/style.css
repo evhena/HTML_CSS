@@ -53,7 +53,6 @@ html, body {
 	text-transform: uppercase;
 	font-weight: 600px;
 	font-size: 1.6rem;
-	margin-bottom: 180px; 
 }
 
 .main__textInfo-button{
@@ -66,7 +65,8 @@ html, body {
 	margin-right: 15px;
 	margin-left: 15px;
 }
-.main__textInfo-button:hover{
+.main__textInfo-button:hover, .four__showMoreBut:hover,
+ .four__showProjectBut:hover {
 	background-color: #f7600e;
 	color: #fff;
 	text-decoration: none;
@@ -76,6 +76,10 @@ html, body {
 .main__textInfo-button-marginRigh{
 	margin-right: 30px; 
 }
+
+.main__textInfo-arrowPic {
+	margin-top: 180px; 
+} 
 
 .main__textInfo-wrapper{
 	padding-top: 160px;
@@ -101,10 +105,9 @@ html, body {
 
 /*______ second section ______*/
 
-.second {
+.sectionPaddings {
 	padding-top: 100px;
-	padding-bottom: 110px; 
-	background: #fff;
+	padding-bottom: 100px; 
 }
 
 .options {
@@ -145,8 +148,6 @@ h3 {
 	background: url('../img/section_third/backgr_3.jpg') center no-repeat;
 	background-size: cover;
 	color: #fff;
-	padding-top: 100px ;
-	padding-bottom: 100px; 
 	text-align: center;
 }
 
@@ -180,6 +181,7 @@ h3 {
 	.third__form-inputEmail {
 		width: 420px;
 	}
+}
 @media (max-width: 768px){
 	.third {
 		padding-top: 50px ;
@@ -193,3 +195,95 @@ h3 {
 		width: 0.5rem;
 	}
 }
+
+/*______ four section ______*/
+
+.picProjects {
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.four__ourWorks-header {
+	font: 500 3.5rem 'Open Sans', sans-serif;
+	color: #3b434c;
+	line-height: 1.143;
+ }
+
+.four__ourWorks-descrText {
+	padding-bottom: 86px;
+	width: 48%;
+}
+
+.four__showMoreBut {
+	border: 1px solid rgba(216, 217, 219, 1);
+	border-radius: 10px;
+	min-width: 200px;
+	padding: 10px 0 10px;
+	display: inline-block;
+	color: #3b434c;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.four__showProjectBut {
+	border: 1px solid rgba(216, 217, 219, 1);
+	background: #fff;
+	border-radius: 10px;
+	min-width: 200px;
+	padding: 10px 0 10px;
+	display: inline-block;
+	color: #f7600e;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.text {
+  background-color: rgba(238, 103, 27, 0.8);
+  color: white;
+  font-size: 1.4rem;
+  padding: 85px 60px;
+  border-radius: 10px;
+  border-color: #f7600e;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+
+/* somediv:hover div {display: block}
+ну создай элемент оверлей
+Абсолют позиционируй
+на весь див
+цвет прозрачный ргба
+и дай при ховере на парент дисплей блок этому диву)
+или ашке
+
+/*______ five section ______*/
