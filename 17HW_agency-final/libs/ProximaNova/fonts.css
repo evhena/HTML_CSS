@@ -1,0 +1,16 @@
+@font-face {
+	font-family: ProximaNovaL;
+	src: local("ProximaNovaL"), url("/ProximaNova-Light.otf");
+}
+@font-face {
+	font-family: ProximaNovaR;
+	src: local("ProximaNovaR"), url("../fonts/ProximaNova-Regular.otf");
+}
+@font-face {
+	font-family: ProximaNovaBold;
+	src: local("ProximaNovaBold"), url("../fonts/ProximaNova-Bold.otf");
+}
+@font-face {
+	font-family: ProximaNovaBlack;
+	src: local("ProximaNovaBlack"), url("../fonts/ProximaNova-Black.otf");
+}

@@ -57,7 +57,6 @@ html, body {
   margin-left: -100px; }
 
 .minusMarginR {
-  margin-left: 100px;
   margin-right: -100px; }
 
 .main__textInfo-buttons {
@@ -98,3 +97,5 @@ html, body {
 @media (max-width: 495px) {
   .main__textInfo-header {
     font-size: 5rem; } }
+
+/*# sourceMappingURL=style.css.map */

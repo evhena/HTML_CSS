@@ -1,0 +1,146 @@
+html {
+	font-size: 16px;
+}
+* {
+	font-family: 'Proxima Nova';
+}
+
+%default-font {
+	font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.section {
+	background: url('../img/backgr.jpg') center no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 100vh;
+}
+
+.marginForSection {
+	margin-left: -100px;
+	margin-right: -100px;
+}
+.navigationMenu {  
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-right: -15px; 
+}
+
+.mainPage__content{
+  padding-top: 19%;
+}
+
+.header {
+	padding-top: 3%;
+}
+
+.blackText { 
+  color: rgb(0, 0, 0);
+}
+
+.whiteText {
+  color: rgb(255, 255, 255);
+}
+
+.grayText {
+  color: rgb(148, 148, 148);
+}
+
+.headerText {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 0.75;
+}
+
+.lightText {
+  font-weight: 300;
+}
+
+.discrText {
+  font-size: 1.1rem;
+  line-height: 1.667;
+  padding-top: 15px;
+}
+
+.buttonSettings {
+  background-image: -moz-linear-gradient( 16deg, rgb(73,0,124) 0%, rgb(231,0,136) 100%);
+  background-image: -webkit-linear-gradient( 16deg, rgb(73,0,124) 0%, rgb(231,0,136) 100%);
+  background-image: -ms-linear-gradient( 16deg, rgb(73,0,124) 0%, rgb(231,0,136) 100%);
+  font-size: 1.1rem;
+  line-height: 2;
+  text-align: center;
+  border-radius: 22px;
+  margin-top: 5%;
+ }
+
+.scroolDown {
+  padding-top: 20%;
+}
+
+.secondPage {
+  background: url('../img/backgr2.jpg') center no-repeat;
+  background-size: cover;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.thirdPage {
+	background-color: #fff;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.paddingTop {
+	padding-top: 100px;
+}
+
+.paddingBottom {
+	padding-bottom: 100px;
+}
+
+.fourPage {
+	background: url('../img/backgr.jpg') center no-repeat;
+}
+
+.rectangle {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.631;
+}
+
+.fivePage {
+	background: url('../img/backgr3.jpg') center no-repeat;
+	padding-bottom: 100px;
+}
+.cardBg {
+	background-color: transparent;
+	border: none;
+  
+}
+
+#map_container {					
+position: relative;
+padding-top: 50%;
+}
+
+#map {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+}
+
+// meta viewport
+// xl >=1200px
+// lg >=992px
+// md >=768px
+// sm >=576px
+// xs >=0
+
+// 16 - 1rem
+// 18 - 1.1rem
+// 24 - 1.5rem
+// 30 - 1.8rem
+// 41 - 2.5rem
+// 48 - 3rem;
